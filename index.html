@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge - Encriptador y Desencriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Challenge - Encriptador y Desencriptador de Texto</h1>
+        <img src="./Imagen/Encriptado.jpg" alt="Imagen del encabezado">
+    </header>
+    <main>
+        <section class="input-sección">
+            <label for="textInput">Ingrese el texto a encriptar o desencriptar:</label>
+            <textarea id="textInput" rows="4" cols="50"></textarea>
+            <div class="buttons">
+                <button onclick="encryptText()">Encriptar</button>
+                <button onclick="decryptText()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="output-sección">
+            <h2>Texto encriptado ó desencriptado:</h2>
+            <textarea id="outputText" rows="4" cols="50" readonly></textarea>
+            </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Desarrollado por: Jesús Alberto Guzmán Buitrago</p>
+        <img src="./Imagen/Colombia.jpg" alt="Imagen de pie de página">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
